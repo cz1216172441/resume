@@ -1,0 +1,86 @@
+body {
+  font-family: 'Fira Code';
+  background: #444645;
+}
+
+.container {
+  display: flex;
+}
+
+/* left */
+.panel-lt {
+  width: 450px;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.head-img {
+  text-align: center;
+}
+.head-img img {
+  display: block;
+  border-radius: 75px;
+  margin: 50px auto 20px auto;
+}
+.head-img span {
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.head-img span:last-child {
+  font-size: 12px;
+  margin: 5px;
+}
+.panel-lt hr {
+  width: 60%;
+  margin: 30px auto;
+  border: 1px solid #FFBC42;
+}
+
+/* github && gitee */
+.git-address {
+  text-align: center;
+}
+.git-address a {
+  text-decoration: none;
+}
+
+/* content */
+.content {
+  width: 60%;
+  color: #fff;
+  margin: 50px auto;
+  letter-spacing: 1px;
+}
+.content p {
+  font-size: 14px;
+}
+
+
+/* right */
+.panel-rt {
+  flex: 1;
+}
+.module {
+  padding: 20px 50px;
+  margin: 30px 50px;
+  color: #fff;
+  letter-spacing: 1px;
+  background: rgba(0, 0, 0, 0.3);
+}
+.module p {
+  font-size: 14px;
+  text-align: justify;
+}
+.module-item {
+  display: flex;
+}
+.module-item span {
+  color: #FFBC42;
+}
+.module-item p {
+  margin-left: 10px;
+  margin-top: 0px;
+  line-height: 20px;
+}
