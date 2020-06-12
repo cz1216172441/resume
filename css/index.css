@@ -1,16 +1,17 @@
 body {
   font-family: 'Fira Code';
   background: #444645;
+  height: 100%;
 }
 
 .container {
   display: flex;
+  height: 100%;
 }
 
 /* left */
 .panel-lt {
   width: 450px;
-  height: 100vh;
   background: rgba(0, 0, 0, 0.3);
 }
 
@@ -61,6 +62,7 @@ body {
 /* right */
 .panel-rt {
   flex: 1;
+  height: 100%;
 }
 .module {
   padding: 20px 50px;
