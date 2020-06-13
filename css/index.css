@@ -6,7 +6,6 @@ body {
 
 .container {
   display: flex;
-  height: 100%;
 }
 
 /* left */
@@ -57,6 +56,13 @@ body {
 }
 .content p {
   font-size: 14px;
+}
+.content p .href {
+  color: #fff;
+  text-decoration: none;
+}
+.content p .href:hover {
+  color: #C5E99B;
 }
 
 
